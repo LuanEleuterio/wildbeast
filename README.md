@@ -22,7 +22,12 @@ Aplicar os conceitos de Grid Layout em um Website, explorando o funcionamento de
 
 :man: [Luan Eleuterio](https://github.com/LuanEleuterio/)
 
-### Layout
+### Layout Web e Mobile
 
-![bikcraft com_](https://user-images.githubusercontent.com/37514449/107689452-9a4c2b80-6c87-11eb-9dc5-9ba0be3063de.png)
+#### Web
+![wildbeast-fullsize](https://user-images.githubusercontent.com/37514449/108551110-37cddd80-72ce-11eb-8337-3a854b840b69.png)
+
+#### Mobile
+![wildbeast-mobile](https://user-images.githubusercontent.com/37514449/108551168-52a05200-72ce-11eb-98ec-a28b6b5012c0.png)
+
 
