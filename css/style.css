@@ -23,16 +23,12 @@ img{
   border-radius: 5px;
 }
 
-.col-wide{
-  grid-column: 1 / -1;
-}
+p{
+  font-size: 1.125em;
+  line-height: 1.4em;
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, .7)
 
-.img-1{
-  grid-row: span 2;
-}
-
-.img-1, .img-2{
-  align-self: end;
 }
 
 /* GRID GERAL */
@@ -113,6 +109,18 @@ terá uma margin-left de 30px. No caso o primeiro li não terá um margin-left p
   transform: scale(1.05);
 }
 
+.col-wide{
+  grid-column: 1 / -1;
+}
+
+.img-1{
+  grid-row: span 2;
+}
+
+.img-1, .img-2{
+  align-self: end;
+}
+
 /* CONTEUDO */
 .content{
   max-width: 900px;
@@ -122,6 +130,96 @@ terá uma margin-left de 30px. No caso o primeiro li não terá um margin-left p
   gap: 30px;
   margin: 0 auto;
   padding: 30px;
+}
+
+.titulo{
+  color: #B07DFB;
+}
+
+.titulo h1{
+  font-size: 3.75em;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.titulo span{
+  font-size: 0.875em;
+  font-style: italic;
+}
+
+.caracteristicas{
+  display: flex;
+  align-items: flex-start;
+}
+
+.caracteristicas > div{
+  position: relative;
+  width: 80px;
+  text-align: center;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, .10);
+}
+
+.caracteristicas > div:first-child{
+  margin-right: 30px;
+}
+
+.caracteristicas span{
+  display: block;
+  color:#B07DFB;
+}
+
+.numero{
+  font-size: 3em;
+  line-height: 1;
+  padding: 15px 0;
+}
+
+.rotulo{
+  background: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 10px 0;
+  position: relative;
+  top: 1px;
+}
+
+.destaque{
+  color:#B07DFB;
+  font-size: 0.875em;
+  max-width: 250px;
+}
+
+.citacao, .atributos{
+  align-self: start;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, .10);
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+}
+
+.citacao p{
+  max-width: 500px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+}
+
+.atributos li{
+  color: #fff;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+.atributos li + li{
+  border-top: 2px solid #B07DFB;
+}
+
+.info-lobo p + p{
+  margin-top: 30px;
 }
 
 /* ANUNCIOS*/
