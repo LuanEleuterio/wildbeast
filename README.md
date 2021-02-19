@@ -23,7 +23,7 @@ Aplicar conceitos de Grid Layout em um Website, explorando o funcionamento de ro
 :man: [Luan Eleuterio](https://github.com/LuanEleuterio/)
 
 ### Layout
-![wildbeast-fullsize](https://user-images.githubusercontent.com/37514449/108551110-37cddd80-72ce-11eb-8337-3a854b840b69.png)
+![wildbeast-fullsize](https://user-images.githubusercontent.com/37514449/108551110-37cddd80-72ce-11eb-8337-3a854b840b69.png) ![wildbeast](https://user-images.githubusercontent.com/37514449/108551168-52a05200-72ce-11eb-98ec-a28b6b5012c0.png)
 
 
 
