@@ -230,6 +230,8 @@ terá uma margin-left de 30px. No caso o primeiro li não terá um margin-left p
   align-content: start;
   padding: 30px;
   gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  justify-content: space-around;
 }
 
 /* FOOTER */
