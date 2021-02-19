@@ -13,10 +13,11 @@ li{
 
 a{
   text-decoration: none;
+  outline: none;
 }
 
 img{
-  max-width: 100px;
+  max-width: 100%;
 }
 
 /* GRID GERAL */
@@ -30,13 +31,71 @@ img{
   "footer footer footer"
   ;
 }
+/* HEADER */
 
 .header{
   grid-area: header;
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
 }
+
+.logo{
+  max-width: 200px;
+}
+
+.header nav ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* O transition sempre tem que ser no item e não no hover*/
+.header nav ul li a{
+  display: block;
+  padding: 10px;
+  color: white;
+  font-size: 1.125em;
+  background: rgba(0,0,0, .1);
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.header nav ul li a:hover{
+  background: rgba(0,0,0, .5);
+}
+
+/* O '+' significa um elemento adjacente ao outro, ou seja, todo li que vir após de um li
+terá uma margin-left de 30px. No caso o primeiro li não terá um margin-left pois ele não veio após outro li.   
+*/
+.header li + li{
+  margin-left: 30px;
+}
+
+/* SIDENAV */
 
 .sidenav{
   grid-area: sidenav;
+  background: #fafbfc;
+  padding: 30px;
+}
+
+.sidenav ul li a{
+  display: block;
+  min-width: 60px;
+  max-width: 100px;
+  padding: 20px;
+  margin: 0 auto 30px auto;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, .10);
+  transition: .5s ease-out;
+}
+
+.sidenav ul li a:hover{
+  background: #B07DFB;
+  transform: scale(1.05);
 }
 
 .content{
