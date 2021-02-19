@@ -18,6 +18,8 @@ a{
 
 img{
   max-width: 100%;
+  display: block;
+  border-radius: 5px;
 }
 
 /* GRID GERAL */
@@ -98,14 +100,29 @@ terá uma margin-left de 30px. No caso o primeiro li não terá um margin-left p
   transform: scale(1.05);
 }
 
+/* CONTEUDO */
 .content{
   grid-area: content;
 }
 
+/* ANUNCIOS*/
 .anuncios{
+  background: #fafbfc;
   grid-area: anuncios;
+  display: grid;
+  align-content: start;
+  padding: 30px;
+  gap: 30px;
 }
 
+/* FOOTER */
 .footer{
+  background: linear-gradient(135deg, #8844ee, #B07DFB);
   grid-area: footer;
+  padding: 30px
+}
+
+.footer p{
+  color: #fff;
+  text-align: center;
 }
