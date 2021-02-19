@@ -6,7 +6,7 @@ Esse projeto foi desenvolvido para o curso de CSS Grid Layout da Origamid.
 
 ### :question: Objetivo
 
-Aplicar os conceitos de Grid Layout em um Website, explorando o funcionamento de row's, column's e area's e posicionamento dos elementos no grid
+Aplicar conceitos de Grid Layout em um Website, explorando o funcionamento de row's, column's, area's e posicionamento dos elementos no grid.
 
 ### :hammer: Tecnologias utilizadas
 
