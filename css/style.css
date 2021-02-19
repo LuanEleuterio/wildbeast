@@ -17,9 +17,22 @@ a{
 }
 
 img{
+  width: 100%;
   max-width: 100%;
   display: block;
   border-radius: 5px;
+}
+
+.col-wide{
+  grid-column: 1 / -1;
+}
+
+.img-1{
+  grid-row: span 2;
+}
+
+.img-1, .img-2{
+  align-self: end;
 }
 
 /* GRID GERAL */
@@ -102,7 +115,13 @@ terá uma margin-left de 30px. No caso o primeiro li não terá um margin-left p
 
 /* CONTEUDO */
 .content{
+  max-width: 900px;
   grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin: 0 auto;
+  padding: 30px;
 }
 
 /* ANUNCIOS*/
